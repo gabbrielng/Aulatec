@@ -1,1 +1,50 @@
 /* Estilos CSS */
+
+.header{
+    background: #f2f0f0;
+    border-top:27px solid #5fa022;
+    box-shadow:1px 1px 5px #ccc;
+}
+.logo{
+    padding:20px;
+}
+.menu li{
+        display: inline-block;
+        margin:0 5px;
+}
+.menu ul{
+    float:right;
+    margin-top:50px;
+}
+.menu a{
+    text-transform:uppercase;
+    font-size:20px;
+    color:#85423f;
+    
+}
+
+    .menu a:hover,
+    .menu a:active,
+    .menu li.active a{
+      color:#fff;
+      text-decoration:none;
+      background:#e2728e;
+      padding: 3px 8px;
+      border-radius:4px;
+    }
+    
+    .slider ul{
+     padding:0;
+     list-style:none;
+    }
+    .slider li{
+        width:100%;
+        overflow:hidden;
+        
+    }
+    
+    .slider li img{
+        position: relative;
+        /*left:50%;
+        transform:traslateX(-50%);*/
+    }
