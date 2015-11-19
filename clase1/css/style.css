@@ -1,0 +1,47 @@
+/*style css*/
+body{
+    background: #ccc;
+    color: black; 
+    font-family: Verdana; 
+    font-size: medium;
+background-image:url(http://www.planwallpaper.com/static/images/cool-background.jpg);
+}
+#contenedor {
+  width: 300px;
+  margin: 0 auto;
+}
+#contenedor2 {
+  width: 300px;
+  margin: 34 auto;
+}
+h2{
+    color:blue;
+    }
+.normal {
+  width: 250px;
+  border: 1px solid #000;
+}
+.normal th, .normal td {
+  border: 1px solid #000;
+}
+    ul, ol {
+  margin: 1em 0 1em 2em;
+  padding:0;
+}
+ 
+
+/*
+font-weight:bold;
+font-size:
+color:
+width:
+height:
+text-style:italic;
+text-decoration:underline;
+background-image:url();
+bordes
+border-width:1px;
+border-color:#ccc;
+border-style:solid;
+*/
+
