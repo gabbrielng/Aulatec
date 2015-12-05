@@ -1,5 +1,8 @@
 /* estilos para curriculumm vitae*/
-
+.img-thumbnail{
+    background-color: black;
+    opacity: 1;
+}
 
 h2{
     text-transform:uppercase;
@@ -30,7 +33,7 @@ table tr{
     border-top:1px solid #ccc;
     
 }
-
+/*estilo de lineas en tabla*/
 table tr:last-child{
     border-bottom:1px solid #ccc;
 }
@@ -38,6 +41,7 @@ table tr:last-child{
  table td:first-child{
  color:gray;    
  }
+ /*estilos a font as*/
  
  table td .fa-user{
      color:red;
@@ -56,17 +60,19 @@ table tr:last-child{
  
  table td .fa-mobile{
      color:green;
-     font-size:26px;
+     font-size:30px;
  }
- table td .fa-phone{
-     color:yellow;
-     font-size:25px;
- }
+
  
  table td .fa-university{
      color:brown;
      font-size:25px;
  }
+  table td .fa-code{
+     color:brown;
+     font-size:25px;
+ }
+ /*stilo de lineas superiores e inferiores */
  
  .line-left{
      border-top:10px #A396CC solid;
@@ -83,6 +89,7 @@ table tr:last-child{
  .line-right-down{
      border-bottom:10px #BAD4AD solid;
  }
+ /*Stilo de skills*/
  
  ul .fa{
     color:#2ABAC7;
@@ -95,5 +102,5 @@ li{
 }
    ul{
  list-style:none;
- border:0;
+ 
 }
