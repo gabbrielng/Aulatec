@@ -1,0 +1,99 @@
+/* estilos para curriculumm vitae*/
+
+
+h2{
+    text-transform:uppercase;
+    border-bottom:solid 1px #2abac7;
+    color:#2abac7;
+    font-size:25px;
+    margin-bottom:15px;
+    padding-bottom:5px;
+}
+
+h3 .fa{
+    color:red;
+}
+
+
+spam,p{
+    color:gray;
+}
+
+table {
+    width:100%;
+}
+
+table td{
+    padding:5px 10px;
+}
+table tr{
+    border-top:1px solid #ccc;
+    
+}
+
+table tr:last-child{
+    border-bottom:1px solid #ccc;
+}
+
+ table td:first-child{
+ color:gray;    
+ }
+ 
+ table td .fa-user{
+     color:red;
+     font-size:25px;
+ }
+  table td .fa-birthday-cake{
+     color:pink;
+     font-size:25px;
+     
+
+ }
+ table td .fa-envelope-square{
+     color:blue;
+     font-size:25px;
+ }
+ 
+ table td .fa-mobile{
+     color:green;
+     font-size:26px;
+ }
+ table td .fa-phone{
+     color:yellow;
+     font-size:25px;
+ }
+ 
+ table td .fa-university{
+     color:brown;
+     font-size:25px;
+ }
+ 
+ .line-left{
+     border-top:10px #A396CC solid;
+ }
+ 
+ .line-right{
+     border-top:10px #D0676B solid;
+ }
+ 
+ .line-left-down{
+     border-bottom:10px #74C7E0 solid;
+ }
+ 
+ .line-right-down{
+     border-bottom:10px #BAD4AD solid;
+ }
+ 
+ ul .fa{
+    color:#2ABAC7;
+    font-size:25px;
+}
+
+li{
+    color:#2abac7;
+    font-size:25px;
+}
+   ul{
+ list-style:none;
+ border:0;
+}

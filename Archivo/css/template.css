@@ -1,5 +1,38 @@
 /* Estilos CSS */
+body{
+    background:#f2f0f0;
+}
 
+h2 , h3{
+    color:#5d0400;
+    font-family:serif;
+}
+h3{
+    font-size:24px;
+}
+
+a{
+    color:#e2728e;
+    
+}
+ a:hover{
+     color:#58a032;
+ }
+hr {
+     border:0;
+     height:15px;
+     width:100%;
+     background: url(../img/hor_separator.png) center no-repeat scroll;
+ }
+.btn.btn-default{
+    background:#e2827e;
+    color:white;
+    border:0;
+}
+.btn.btn-default:hover{
+    background:#58a032;
+    color:white;
+}
 .header{
     background: #f2f0f0;
     border-top:27px solid #5fa022;
@@ -45,6 +78,132 @@
     
     .slider li img{
         position: relative;
-        /*left:50%;
-        transform:traslateX(-50%);*/
+        left:50%;
+        transform:translateX(-50%);
+        /*centrar sobre el elemento cuando el contenedor */
     }
+    
+
+.best-choise .dish img{
+    box-shadow:1px 1px 3px #ccc;
+}
+
+.best-choise .dish h3{
+    font-size:13px;
+    text-transform:uppercase;
+    margin-bottom:5px;
+    font-family:'helvetica Neue';
+    color:#333;
+}
+
+.best-choise .dish .price{
+    color:white;
+    background:#699440;
+    padding:7px;
+    border-radius:5px;
+    margin-top:15px;
+    display:inline-block;/*crea elementos en linea a bloque */
+    font-family:"arial black";
+    
+}
+
+.follow-us .fa{
+    color:#64a921;
+    font-size:35px;
+    margin-right:10px;
+    
+}
+
+.follow-us .secondary-menu{
+    margin-top:25px;
+    padding:0;
+}
+
+
+.footer{
+  background:#64a921;
+    height:70px;
+    margin-top:30px;
+ }
+ 
+ .footer p{
+     color:white;
+     font-size:20px;
+     text-align:center;
+    
+ }
+ /*query para pantallas menores a 480 pixeles*/
+ /*
+ @media screen and (max-width:480px){
+     .best-choise .dish
+     {
+         float:none;
+         width:100%;
+         
+     }
+     .welcome .column{
+         float:none;
+         width:100%;
+         
+     }
+    .welcome .chef{
+        margin:0 auto;
+         
+     }
+
+}
+
+
+@media screen and(min-width:769px)and(max-width:944px){
+    
+    .follow-us .secondary-menu li{
+     font-size:11px;
+        margin-right:5px;
+    }
+}
+@media screen and(min-width:992px)and(max-width:1200px){
+    
+    .menu a{
+     font-size:16px;
+        
+    }
+}
+
+@media screen and(max-width:991px){
+     
+ .menu{
+        margin:0 auto;
+        display:block;
+       
+     
+     
+ }
+ .menu ul{
+     margin-top:10px;
+     margin-bottom:20px;
+     
+ }
+ .logo{
+        margin:0 auto;
+     display:block;
+ }
+ }
+@media screen and(max-width:769px){
+    
+    .menu li{
+        display:block;
+        text-align:center;
+        
+        
+    }
+    
+    .menu ul{
+        float:none;
+    }
+    .menu a{
+        width:100%;
+        display:inline-block;
+    }
+}
+     
+   
